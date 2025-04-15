@@ -13,7 +13,7 @@ class Program
 
         if (resultado)
         {
-            Console.WriteLine("O número é par.");
+            Console.WriteLine("O número é par");
         }
 
     }
