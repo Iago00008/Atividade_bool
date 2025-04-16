@@ -5,12 +5,12 @@ class Program
     {
         Console.WriteLine("Digite sua idade:");
         int idade = Convert.ToInt32(Console.ReadLine());
-
-        if (idade >= 16)
+        bool resultado = idade >= 16;
+        if (resultado)
         {
             Console.WriteLine("Você pode votar.");
         }
-        else if (idade <= 15)
+        else 
         {
             Console.WriteLine("Você NÃO pode votar.");
         }
