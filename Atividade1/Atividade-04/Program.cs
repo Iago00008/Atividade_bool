@@ -10,7 +10,7 @@
 
         if (resultado)
         {   
-            Console.WriteLine("É uma vogal");
+            Console.WriteLine("É uma vogal.");
         }
         else
         {
